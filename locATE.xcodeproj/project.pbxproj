@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7F2D46F8225FDB190041DA3F /* Hackwich#8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hackwich#8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2D46F8225FDB190041DA3F /* locATE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locATE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2D46FB225FDB190041DA3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F2D46FD225FDB190041DA3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F2D4700225FDB190041DA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F2D4702225FDB1B0041DA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F2D4705225FDB1B0041DA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F2D4707225FDB1B0041DA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F2D470C225FDB1B0041DA3F /* Hackwich#8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackwich#8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2D470C225FDB1B0041DA3F /* locATETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locATETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2D4710225FDB1B0041DA3F /* Hackwich_8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich_8Tests.swift; sourceTree = "<group>"; };
 		7F2D4712225FDB1B0041DA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F2D4717225FDB1B0041DA3F /* Hackwich#8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hackwich#8UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2D4717225FDB1B0041DA3F /* locATEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locATEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2D471B225FDB1B0041DA3F /* Hackwich_8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich_8UITests.swift; sourceTree = "<group>"; };
 		7F2D471D225FDB1B0041DA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		7F2D46F9225FDB190041DA3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F2D46F8225FDB190041DA3F /* Hackwich#8.app */,
-				7F2D470C225FDB1B0041DA3F /* Hackwich#8Tests.xctest */,
-				7F2D4717225FDB1B0041DA3F /* Hackwich#8UITests.xctest */,
+				7F2D46F8225FDB190041DA3F /* locATE.app */,
+				7F2D470C225FDB1B0041DA3F /* locATETests.xctest */,
+				7F2D4717225FDB1B0041DA3F /* locATEUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F2D46F7225FDB190041DA3F /* Hackwich#8 */ = {
+		7F2D46F7225FDB190041DA3F /* locATE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F2D4720225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "Hackwich#8" */;
+			buildConfigurationList = 7F2D4720225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "locATE" */;
 			buildPhases = (
 				7F2D46F4225FDB190041DA3F /* Sources */,
 				7F2D46F5225FDB190041DA3F /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "Hackwich#8";
+			name = locATE;
 			productName = "Hackwich#8";
-			productReference = 7F2D46F8225FDB190041DA3F /* Hackwich#8.app */;
+			productReference = 7F2D46F8225FDB190041DA3F /* locATE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7F2D470B225FDB1B0041DA3F /* Hackwich#8Tests */ = {
+		7F2D470B225FDB1B0041DA3F /* locATETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F2D4723225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "Hackwich#8Tests" */;
+			buildConfigurationList = 7F2D4723225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "locATETests" */;
 			buildPhases = (
 				7F2D4708225FDB1B0041DA3F /* Sources */,
 				7F2D4709225FDB1B0041DA3F /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				7F2D470E225FDB1B0041DA3F /* PBXTargetDependency */,
 			);
-			name = "Hackwich#8Tests";
+			name = locATETests;
 			productName = "Hackwich#8Tests";
-			productReference = 7F2D470C225FDB1B0041DA3F /* Hackwich#8Tests.xctest */;
+			productReference = 7F2D470C225FDB1B0041DA3F /* locATETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7F2D4716225FDB1B0041DA3F /* Hackwich#8UITests */ = {
+		7F2D4716225FDB1B0041DA3F /* locATEUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F2D4726225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "Hackwich#8UITests" */;
+			buildConfigurationList = 7F2D4726225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "locATEUITests" */;
 			buildPhases = (
 				7F2D4713225FDB1B0041DA3F /* Sources */,
 				7F2D4714225FDB1B0041DA3F /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				7F2D4719225FDB1B0041DA3F /* PBXTargetDependency */,
 			);
-			name = "Hackwich#8UITests";
+			name = locATEUITests;
 			productName = "Hackwich#8UITests";
-			productReference = 7F2D4717225FDB1B0041DA3F /* Hackwich#8UITests.xctest */;
+			productReference = 7F2D4717225FDB1B0041DA3F /* locATEUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F2D46F3225FDB190041DA3F /* Build configuration list for PBXProject "Hackwich#8" */;
+			buildConfigurationList = 7F2D46F3225FDB190041DA3F /* Build configuration list for PBXProject "locATE" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F2D46F7225FDB190041DA3F /* Hackwich#8 */,
-				7F2D470B225FDB1B0041DA3F /* Hackwich#8Tests */,
-				7F2D4716225FDB1B0041DA3F /* Hackwich#8UITests */,
+				7F2D46F7225FDB190041DA3F /* locATE */,
+				7F2D470B225FDB1B0041DA3F /* locATETests */,
+				7F2D4716225FDB1B0041DA3F /* locATEUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		7F2D470E225FDB1B0041DA3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F2D46F7225FDB190041DA3F /* Hackwich#8 */;
+			target = 7F2D46F7225FDB190041DA3F /* locATE */;
 			targetProxy = 7F2D470D225FDB1B0041DA3F /* PBXContainerItemProxy */;
 		};
 		7F2D4719225FDB1B0041DA3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F2D46F7225FDB190041DA3F /* Hackwich#8 */;
+			target = 7F2D46F7225FDB190041DA3F /* locATE */;
 			targetProxy = 7F2D4718225FDB1B0041DA3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackwich#8.app/Hackwich#8";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/locATE.app/locATE";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackwich#8.app/Hackwich#8";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/locATE.app/locATE";
 			};
 			name = Release;
 		};
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F2D46F3225FDB190041DA3F /* Build configuration list for PBXProject "Hackwich#8" */ = {
+		7F2D46F3225FDB190041DA3F /* Build configuration list for PBXProject "locATE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F2D471E225FDB1B0041DA3F /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F2D4720225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "Hackwich#8" */ = {
+		7F2D4720225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "locATE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F2D4721225FDB1B0041DA3F /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F2D4723225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "Hackwich#8Tests" */ = {
+		7F2D4723225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "locATETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F2D4724225FDB1B0041DA3F /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F2D4726225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "Hackwich#8UITests" */ = {
+		7F2D4726225FDB1B0041DA3F /* Build configuration list for PBXNativeTarget "locATEUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F2D4727225FDB1B0041DA3F /* Debug */,
